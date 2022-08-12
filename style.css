@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body{
     max-width:1015px;
     margin:0 auto;
@@ -32,11 +34,11 @@ margin: 10px;
 display: block;
 }
 .Zina:hover {
-    color: #008398;
+    color: #00B39B;
 }
 
 .loun {
-    color:#008398;
+    color:#00B39B;
     }
 .GZ7 {
     position: relative;
@@ -52,13 +54,21 @@ display: block;
     padding: 12px 16px 12px 16px;
 }
 .ZinaMinilist:hover {
-    color: #008398;
+    color: #00B39B;
 }
 .ZinaMain {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.ZinaH1 {
+    font-family:"Work sans";
+    font-size: 34px;
+    font-weight: 300;
+    color: #00B39B;
+    background-color:#ffffff;
+}
+
 .ZinaP {
     display: flex;
     justify-content: space-around; 
@@ -66,4 +76,13 @@ display: block;
 .IMG {
     height: 39px;
     width: 40px;
+}
+.ZinaText1 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #747474;
+    height: 112px;
+    width: 477.5px;
+    margin: 13px 0 13px 0;
 }
